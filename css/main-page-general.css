@@ -1,0 +1,227 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    /*width: 100%;*/
+    /*min-height: 100vh;*/
+    margin: auto;
+    /*padding: 0;*/
+    font-family: 'Advent Pro', sans-serif;
+    
+}
+/*navigation*/
+
+.navbar-brand {
+    font-family: 'Arizonia', cursive;
+font-size: 4vw;
+}
+
+#navigation {
+    margin: auto;
+    background-color: white !important;
+}
+
+@media (min-width: 993px) {
+    #navbarNav {
+
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+/*carousel*/
+
+#maincarousel {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#carouselExampleIndicators
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.saying {
+ 
+   font-family: 'Allura', cursive;
+   font-size: 4vw;
+   color: black !important;
+}
+.author-description{
+   font-family: 'Allura', cursive;
+   font-size: 4vw;
+   color: black !important;
+}
+.title{
+    font-family: 'Source Code Pro', monospace;
+ text-decoration: overline;
+ color: #772817;
+ font-size: large;
+}
+ 
+ /*body layout*/
+ 
+@media (min-width: 630px) { 
+ .maininfo{
+     
+  display: grid;
+  grid-template-columns:  50% 50%;
+  grid-template-rows: 6% 10% 10% 10% 10% 6% 10% 10% 10% 8% 10%;
+}
+#heading-ed{
+grid-row:1;
+grid-column:1; 
+}
+.alberta {
+grid-row:2;
+grid-column:2;
+}
+
+.finland{
+grid-row:3;
+grid-column:1;
+}
+
+.lviv{
+grid-row:4;
+grid-column:2;
+}
+.bachelor{
+grid-row:5;
+grid-column:1;
+}
+
+#heading-wo{
+grid-row:6;
+grid-column:2; 
+}
+.notary {
+grid-row:7;
+grid-column:1;
+}
+
+.nexia{
+grid-row:8;
+grid-column:2;
+}
+
+.clinic{
+grid-row:9;
+grid-column:1;
+}
+
+#heading-co{
+grid-row:10;
+grid-column:2; 
+}
+.mycontacts {
+grid-row:11;
+grid-column:1;
+}
+
+#form{
+grid-row:11;
+grid-column:2;
+}
+}
+
+
+@media (max-width: 629px) {
+  .maininfo{
+  display: grid;
+  grid-template-columns:  100%;
+  grid-template-rows: 6% 10% 10% 10% 10% 6% 10% 10% 10% 8% 10%;
+}
+#heading-ed{
+grid-row:1;
+grid-column:1; 
+}
+.alberta {
+grid-row:2;
+grid-column:1;
+}
+
+.finland{
+grid-row:3;
+grid-column:1;
+}
+
+.lviv{
+grid-row:4;
+grid-column:1;
+}
+.bachelor{
+grid-row:5;
+grid-column:1;
+}
+
+#heading-wo{
+grid-row:6;
+grid-column:1; 
+}
+.notary {
+grid-row:7;
+grid-column:1;
+}
+
+.nexia{
+grid-row:8;
+grid-column:1;
+}
+
+.clinic{
+grid-row:9;
+grid-column:1;
+}
+
+#heading-co{
+grid-row:10;
+grid-column:1; 
+}
+.mycontacts {
+grid-row:11;
+grid-column:1;
+}
+
+#form{
+grid-row:11;
+grid-column:1;
+}
+}
+ 
+ /*style*/
+ .section-name{
+     text-decoration: underline;
+     text-shadow: 4px 4px 5px black;
+     font-weight: bold;
+ }
+ .date{
+     text-decoration: underline;
+ }
+ .institution {
+     font-family: 'Allura', cursive;
+     font-weight: bold;
+     /*font-size: 4vw;*/
+ }
+
+/* #education{*/
+/*  display: flex;*/
+/*  justify-content:center;*/
+/*  align-items:stretch;*/
+/*}*/
+ 
+/*font-family: 'Advent Pro', sans-serif;*/
+
+/*font-family: 'Arizonia', cursive;*/
+
+/*font-family: 'Allura', cursive;*/
+
+/*font-family: 'Source Code Pro', monospace;*/
