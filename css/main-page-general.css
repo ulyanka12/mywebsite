@@ -28,7 +28,7 @@ font-size: 4vw;
 
 @media (min-width: 993px) {
     #navbarNav {
-
+font-size: 2vw;
         display: flex;
         justify-content: flex-end;
     }
@@ -61,149 +61,108 @@ font-size: 4vw;
    color: black !important;
 }
 .title{
-    font-family: 'Source Code Pro', monospace;
- text-decoration: overline;
- color: #772817;
- font-size: large;
+    font-family: 'Allura', cursive;
+   font-size: 4vw;
+   color: black ;
 }
+
+ /*main part*/
  
- /*body layout*/
- 
-@media (min-width: 630px) { 
+ @media (min-width: 630px) { 
+         
  .maininfo{
      
   display: grid;
   grid-template-columns:  50% 50%;
-  grid-template-rows: 6% 10% 10% 10% 10% 6% 10% 10% 10% 8% 10%;
+  grid-template-rows: 33% 33% 34%;
 }
-#heading-ed{
-grid-row:1;
-grid-column:1; 
+
+#education{
+ grid-row:1;
+grid-column:1;    
 }
-.alberta {
+#leaf{
+    max-height: 100%;
+    max-width:100%;
+    margin: auto;
+    padding: 5px;
+  grid-row:1;
+grid-column:2;  
+display: flex;
+align-items:center;
+}
+#experience{
 grid-row:2;
-grid-column:2;
+grid-column:2;    
 }
-
-.finland{
-grid-row:3;
-grid-column:1;
+#feather{
+   max-height: 100%;
+    max-width:100%;
+    margin: auto;
+    padding: 5px;
+  grid-row:2;
+grid-column:1;  
+display: flex;
+align-items:center; 
 }
-
-.lviv{
-grid-row:4;
-grid-column:2;
+#contacts{
+   grid-row:3;
+grid-column:1;   
 }
-.bachelor{
-grid-row:5;
-grid-column:1;
-}
-
-#heading-wo{
-grid-row:6;
-grid-column:1; 
-}
-.notary {
-grid-row:7;
-grid-column:1;
-}
-
-.nexia{
-grid-row:8;
-grid-column:2;
-}
-
-.clinic{
-grid-row:9;
-grid-column:1;
-}
-
-#heading-co{
-grid-row:10;
-grid-column:2; 
-}
-/*.mycontacts {*/
-/*grid-row:11;*/
-/*grid-column:1;*/
-/*}*/
-
-#form{
-grid-row:11;
-grid-column:2;
+#phone{
+  max-height: 100%;
+    max-width:100%;
+    margin: auto;
+    padding: 5px;
+  grid-row:3;
+grid-column:2;  
+display: flex;
+align-items:center;  
 }
 }
 
-
-@media (max-width: 629px) {
+@media (max-width: 629px){
   .maininfo{
-  display: grid;
+      display: grid;
   grid-template-columns:  100%;
-  grid-template-rows: 6% 10% 10% 10% 10% 6% 10% 10% 10% 8% 10%;
-  margin:auto; 
+  grid-template-rows: 25%  25%  25%  25%;
   text-align: center;
 }
-#heading-ed{
-grid-row:1;
-grid-column:1; 
+#education{
+ grid-row:1;
+    
 }
-.alberta {
+#experience{
 grid-row:2;
-grid-column:1;
+    
+}
+#contacts{
+   grid-row:3;
+   
+}
+#leaf{
+   display: none;
+}
+#feather{
+    display: none;
+}
+#phone{
+  grid-row:4;
+   max-height: 100%;
+    max-width:100%;
+    margin: auto;
+    padding: 5px;
+display: flex;
+align-items:center;  
+}
 }
 
-.finland{
-grid-row:3;
-grid-column:1;
-}
-
-.lviv{
-grid-row:4;
-grid-column:1;
-}
-.bachelor{
-grid-row:5;
-grid-column:1;
-}
-
-#heading-wo{
-grid-row:6;
-grid-column:1; 
-}
-.notary {
-grid-row:7;
-grid-column:1;
-}
-
-.nexia{
-grid-row:8;
-grid-column:1;
-}
-
-.clinic{
-grid-row:9;
-grid-column:1;
-}
-
-#heading-co{
-grid-row:10;
-grid-column:1; 
-}
-.mycontacts {
-grid-row:11;
-grid-column:1;
-}
-
-#form{
-grid-row:11;
-grid-column:1;
-}
-}
- 
  /*style*/
  .section-name{
      text-decoration: underline;
      text-shadow: 4px 4px 5px black;
      font-weight: bold;
+     font-size: 3vw;
  }
  .date{
      text-decoration: underline;
@@ -211,14 +170,14 @@ grid-column:1;
  .institution {
      font-family: 'Allura', cursive;
      font-weight: bold;
-     /*font-size: 4vw;*/
+     font-size: 3vw;
  }
-
-/* #education{*/
-/*  display: flex;*/
-/*  justify-content:center;*/
-/*  align-items:stretch;*/
-/*}*/
+/*footer*/
+.facebook{
+  max-width: 100%;
+  max-height: 50%;
+  margin: auto;
+}
  
 /*font-family: 'Advent Pro', sans-serif;*/
 
